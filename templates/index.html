@@ -1,0 +1,16 @@
+<!-- templates/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Harwe Technologies</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    {% include 'navbar.html' %}
+    <h1>Welcome to Harwe Technologies</h1>
+    <p>We are a leading IT company providing innovative solutions to our clients.</p>
+</body>
+</html>

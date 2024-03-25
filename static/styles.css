@@ -1,0 +1,54 @@
+/* static/styles.css */
+
+/* Color Variables */
+:root {
+    --primary-color: #007bff; /* Blue */
+    --secondary-color: #28a745; /* Green */
+    --neutral-color: #0a0a0a; /* Gray */
+}
+
+/* Navigation Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: var(--primary-color); /* Blue background color */
+}
+
+.logo img {
+    height: 50px; /* Adjust the height of the logo as needed */
+}
+
+.nav-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links ul li {
+    display: inline;
+    margin-left: 10px; /* Adjust spacing between navigation links */
+}
+
+.nav-links ul li:first-child {
+    margin-left: 0; /* Remove left margin from the first navigation link */
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    color: #fff; /* White text color */
+}
+
+.nav-links ul li a:hover {
+    text-decoration: underline; /* Underline text on hover */
+}
+
+/* Additional Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: var(--neutral-color); /* Gray text color */
+}
